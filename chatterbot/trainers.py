@@ -105,7 +105,8 @@ class TwitterTrainer(Trainer):
             consumer_key=kwargs.get('twitter_consumer_key'),
             consumer_secret=kwargs.get('twitter_consumer_secret'),
             access_token_key=kwargs.get('twitter_access_token_key'),
-            access_token_secret=kwargs.get('twitter_access_token_secret')
+            access_token_secret=kwargs.get('twitter_access_token_secret'),
+            sleep_on_rate_limit=True
         )
 
     def random_word(self, base_word='random'):
