@@ -1,4 +1,0 @@
-codeclimate-test-reporter
-coveralls
-mock
-nose
